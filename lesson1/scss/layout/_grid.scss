@@ -1,0 +1,9 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.grid__main{
+    background-color: blue;
+}

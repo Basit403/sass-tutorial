@@ -1,1 +1,1 @@
-{"version":3,"sources":["../lesson1/sccs/style.scss"],"names":[],"mappings":"AAAA,KACI,sCAAA,CACA,wBAAA,CACA,UAAA","file":"style.css"}
+{"version":3,"sources":["../lesson1/scss/globals/_boilerplate.scss","../lesson1/scss/util/_fonts.scss","../lesson1/scss/globals/_typography.scss","../lesson1/scss/globals/_colors.scss"],"names":[],"mappings":"AAEA,KACI,qBAAA,CACA,cAAA,CAGJ,qBAGI,kBAAA,CAGJ,KACI,QAAA,CACA,SAAA,CACA,kCChBG,CDiBH,wCAAA,CACA,uBAAA,CElBJ,SAGI,eAAA,CACA,eAAA,CACA,YAAA,CAGJ,EACI,YAAA,CAGJ,qBAGI,oBAAA,CCfJ,MACI,mCAAA,CACA,8BAAA","file":"style.css"}
