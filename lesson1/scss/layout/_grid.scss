@@ -2,8 +2,22 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
+    max-width: 1000px;
+
+    @media (min-width: 900px){
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        
+    }
 }
 
 .grid__main{
     background-color: blue;
+    padding: 40px;
 }
+
+.grid__sidebar{
+    background-color: rgb(255, 0, 0);
+    padding: 40px;
+}
+

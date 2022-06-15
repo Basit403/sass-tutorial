@@ -3,3 +3,5 @@
 3.How to create scss file.
 4.How to seperate your code.
 5.How to target your code usin @forward
+learn sass partials
+learn sass responsive design
