@@ -1,10 +1,13 @@
+@use '../util' as u;
+
 .grid{
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
     max-width: 1000px;
+    width: min(100%, 100px);
 
-    @media (min-width: 900px){
+    @include u.breakpoints(large){
         grid-template-columns: 2fr 1fr;
         grid-template-rows: auto;
         
@@ -19,5 +22,9 @@
 .grid__sidebar{
     background-color: rgb(255, 0, 0);
     padding: 40px;
+
+    @include u.breakpoint(medium){
+        text-align: left;
+    }
 }
 
